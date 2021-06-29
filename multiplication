@@ -1,0 +1,20 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Multiplication
+{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        int x,m;
+        x=sc.nextInt();
+        for(int i=1;i<=10;i++)
+        {
+            m=x*i;
+            System.out.println ( x+" x "+i+" = " +m );
+        }
+    }
+}
